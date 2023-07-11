@@ -1,0 +1,1 @@
+This is my 0x09. C - Static libraries that explains libraries as predefined codes that has been written by someone else been implemented into one's obeject file just to ease stress of rewriting the code someone else has made available. A static library can not be adjusted or changed .
