@@ -3,8 +3,8 @@
 
 /**
  * print_numbers - prints number
- * @n: number to print
  * @separator: prints a string separator between numbers
+ * @n: number to print
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
@@ -17,6 +17,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		if (separator != NULL)
 		{
 			printf("%d", va_arg(num, int));
+			if (i > n - 1)
 			printf("%s", separator);
 		}
 		else
