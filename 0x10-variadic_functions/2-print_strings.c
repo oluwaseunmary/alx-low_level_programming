@@ -14,11 +14,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *re;
 
 	va_start(word, n);
-	
 	for (i = 0; i < n; i++)
 	{
 		re = va_arg(word, char *);
-	
 		if (re == NULL)
 			printf(("nil"));
 		else
