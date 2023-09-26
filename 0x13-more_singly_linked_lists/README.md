@@ -1,2 +1,1 @@
-0x13. C - More singly linked lists
-This is a data structure that is made up of nodes
+0X13-More singly linked lists
