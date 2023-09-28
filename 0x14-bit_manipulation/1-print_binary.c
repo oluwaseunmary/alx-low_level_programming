@@ -9,8 +9,6 @@
  */
 void print_binary(unsigned long int n)
 {
-	if (n == 0)
-		return;
 	if (n >> 0)
 	{
 		if (n >> 1)
