@@ -20,7 +20,8 @@ unsigned int binary_to_uint(const char *b)
 	sum = 0;
 	if (b == NULL)
 		return (0);
-	for (stlen = 0; b[stlen] != '\0'; stlen++); 
+	for (stlen = 0; b[stlen] != '\0'; stlen++)
+		;
 	if (stlen == 1 && (b[0] == '0' || b[0] == '1'))
 		return (b[0] - 48);
 	for (i = 0; b[i] != '\0'; i++)
